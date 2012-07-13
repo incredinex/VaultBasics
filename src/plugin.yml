@@ -1,0 +1,25 @@
+name: VaultBasics
+main: com.flobi.VaultBasics.VaultBasics
+version: 1.0.0
+depend: [Vault]
+
+description: Access to low level Vault functions.
+author: flobi
+website: http://www.aerialheights.com/
+
+database: false
+
+commands:
+  vbecon:
+    description: Vault Basic Economy 
+    usage: |
+           /<command> - Display available economy subcommands
+  vbchat:
+    description: Vault Basic Chat 
+    usage: |
+           /<command> - Display available chat subcommands
+  vbperm:
+    description: Vault Basic Permissions 
+    usage: |
+           /<command> - Display available permission subcommands
+           
